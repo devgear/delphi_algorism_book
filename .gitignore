@@ -19,5 +19,4 @@ dunit.ini
 **/OSX32/*
 **/iOSDevice/*
 **/Android/*
-**/Win32/*
 **/Win64/*
