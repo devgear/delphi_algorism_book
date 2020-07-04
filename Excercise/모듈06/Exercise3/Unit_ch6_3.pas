@@ -1,3 +1,6 @@
+//이 모듈은 아직 배열(Array)를 배우 전입니다.
+//따라서, 아래 답변은 배열(Array)를 배우지 않은 입문자에게 알맞지 않습니다.
+//차라리, 이 문제에 댓글로 달린 풀이를 참고하기 바랍니다: https://tech.devgear.co.kr/421912 
 unit Unit_ch6_3;
 
 interface
@@ -48,8 +51,8 @@ begin
        array_real[j] := r;
       end;
 
-  label1.Caption := '�ּҰ� =' + FloatToStr(Array_real[0]);
-  label2.Caption := '�ִ밪 =' + FloatToStr(Array_real[2]);
+  label1.Caption := 'ÃÖ¼Ò°ª =' + FloatToStr(Array_real[0]);
+  label2.Caption := 'ÃÖ´ë°ª =' + FloatToStr(Array_real[2]);
 end;
 
 
