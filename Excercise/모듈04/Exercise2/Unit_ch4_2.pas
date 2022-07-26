@@ -28,7 +28,6 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
-procedure TForm1.Button1Click(Sender: TObject);
 const
   v: int64 = 6350000;
 var
