@@ -32,7 +32,7 @@ var
 begin
   Cnt := 0;
   s := Edit1.Text;
-  for i := 0 to Length(s) do
+  for i := 1 to Length(s) do
     if s[i] =  '.' then
        Cnt := Cnt + 1;
    ShowMessage(InTtoStr(Cnt));
