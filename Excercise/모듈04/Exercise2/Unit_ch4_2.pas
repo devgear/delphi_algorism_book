@@ -29,12 +29,13 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 const
-  v: int64 = 6350000;
+v: int64 = 6350000;
 var
-  r: real;
+  r:real;
+  a:int64;
 begin
-  Edit2.Clear;
-  r := SQRT(SQR(v + StrToInt64(Edit1.Text)) - SQR(v));
+  a := SQR(v + StrToInt64(Edit1.Text));
+  r := SQRT(a - SQR(v));
   Edit2.Text := FloatToStr(r / 1000);
 
 end;
