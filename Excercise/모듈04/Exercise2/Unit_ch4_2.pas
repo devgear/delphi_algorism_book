@@ -28,13 +28,15 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
+const
+v: int64 = 6350000;
 var
   r:real;
+  a:int64;
 begin
-  r := SQRT(SQR(6350000 + StrToint(Edit1.Text)) - SQR(6350000));
+  a := SQR(v + StrToInt64(Edit1.Text));
+  r := SQRT(a - SQR(v));
   Edit2.Text := FloatToStr(r / 1000);
-
-
 
 end;
 
